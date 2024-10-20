@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 12px 15px rgba(0,0,0,0.5);
+    margin: 10px;
+}
+
+.text__area{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    outline: none;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 10px;
+    border: solid grey 2px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter p{
+    font-size: 18px;
+    color: black;
+}
+
+.total__char{
+    color: crimson;
+}
+
+.remaining__char{
+    color: blue;
+}
